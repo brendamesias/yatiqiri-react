@@ -1,6 +1,5 @@
 .cache/
 node_modules/
 .vscode
-dist/
 .babelrc
 package-lock.json
