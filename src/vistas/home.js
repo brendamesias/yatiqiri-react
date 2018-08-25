@@ -1,9 +1,13 @@
 import React from 'react'
 import Header from '../componentes/header.js'
+import { Button } from 'reactstrap';
 
 function Home(){
     return(
-    <Header/>
+        <div>
+            <Button color="danger">Danger!</Button>
+            <Header/>
+        </div>    
     )
 }
 
